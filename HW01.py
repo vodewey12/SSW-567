@@ -29,6 +29,11 @@ def classify_triangle(a,b,c):
 
 
 
-    
-
+print ("For equalateral")
+print (classify_triangle(4,4,4))
+print ("For isoceles")
+print (classify_triangle(4,4,5))
+print ("For scalene")
+print (classify_triangle(1,2,3))
+print ("For right scalene/isoceles")
 print (classify_triangle(3,4,5))
